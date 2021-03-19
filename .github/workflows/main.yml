@@ -29,8 +29,8 @@ jobs:
         include:
           # This works like this: when the platform is "arduino:samd", the
           # variable fqbn is set to "arduino:samd:nano_33_iot".
-          - arduino-platform: "arduino:esp12e"
-            fqbn: "arduino:samd:espressif8266"
+          - arduino-platform: "arduino:espressif8266"
+            fqbn: "arduino:espressif8266:esp12e"
  
     # This is the platform GitHub will use to run our workflow, we
     # pick Windows for no particular reason.
